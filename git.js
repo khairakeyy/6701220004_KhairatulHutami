@@ -20,5 +20,8 @@ function hitung(operator, angka1, angka2) {
             //operasi pembagian
             hasil = angka1 / angka2;
             break;
-            
+        case '%':
+            //operasi modulus
+            hasil = angka1 % angka2;
+            break;
     }
