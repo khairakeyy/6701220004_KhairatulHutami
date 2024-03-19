@@ -24,4 +24,10 @@ function hitung(operator, angka1, angka2) {
             //operasi modulus
             hasil = angka1 % angka2;
             break;
+        default:
+            //operator tidak valid
+            hasil = 'Operator tidak valid'
     }
+    //mengembalikan hasil perhitungan
+    return hasil;
+}
