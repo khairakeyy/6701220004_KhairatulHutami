@@ -12,4 +12,9 @@ function hitung(operator, angka1, angka2) {
             //operasi pengurangan
             hasil = angka1 + angka2;
             break;
+        case '*':
+            //operasi perkalian
+            hasil = angka1 * angka2;
+            break;
+        
     }
