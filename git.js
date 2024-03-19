@@ -16,5 +16,9 @@ function hitung(operator, angka1, angka2) {
             //operasi perkalian
             hasil = angka1 * angka2;
             break;
-        
+        case '/':
+            //operasi pembagian
+            hasil = angka1 / angka2;
+            break;
+            
     }
