@@ -8,4 +8,8 @@ function hitung(operator, angka1, angka2) {
             //operasi penambahan 
             hasil = angka1 + angka2;
             break;
+        case '-':
+            //operasi pengurangan
+            hasil = angka1 + angka2;
+            break;
     }
